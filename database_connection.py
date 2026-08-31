@@ -5,9 +5,9 @@ from sqlalchemy.engine import URL
 database_url = URL.create(
     drivername="mysql+pymysql",
     username="root",
-    password="*******",
+    password="coforge25",
     host="localhost",
-    database="EmployeeAttendanceDB"
+    database="EmployeeProjectDB"
 )
 
 engine = create_engine(database_url)

@@ -1,3 +1,15 @@
-from sqlalchemy.orm import declarative_base
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.engine import URL
 
-Base=declarative_base()
+database_url = URL.create(
+    drivername="mysql+pymysql",
+    username="root",
+    password="*******",
+    host="localhost",
+    database="EmployeeAttendanceDB"
+)
+
+engine = create_engine(database_url)
+
+SessionLocal = sessionmaker(bind=engine)

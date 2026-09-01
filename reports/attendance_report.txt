@@ -1,0 +1,11 @@
+EMPLOYEE ATTENDANCE REPORT
+==========================
+
+Employee ID: 101
+Employee Name: Rahul Sharma
+Department: HR
+
+Working Days: 1
+Present Days: 1
+Absent Days: 0
+Attendance Percentage: 100.0%

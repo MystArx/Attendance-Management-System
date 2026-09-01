@@ -1,0 +1,10 @@
+EMPLOYEE LEAVE REPORT
+=====================
+
+Leave ID   : 501
+Employee   : Rahul Sharma (ID: 101)
+Type       : Casual
+Duration   : 2026-09-01 to 2026-09-03 (3 days)
+Status     : Approved
+Reason     : Family Event
+----------------------------------------

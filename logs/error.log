@@ -1,0 +1,9 @@
+[2026-08-31 22:45:45] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-08-31 22:45:45] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-01 23:00:03] ERROR: Error adding department: Could not refresh instance '<Department at 0x7fd91cb1b750>'
+[2026-09-01 23:00:11] ERROR: Error adding department: Department with ID 2 already exists.
+[2026-09-01 23:00:45] ERROR: Error adding department: Could not refresh instance '<Department at 0x7fd91c41f8a0>'
+[2026-09-01 23:01:58] ERROR: Error adding department: Could not refresh instance '<Department at 0x7fd91c48f410>'
+[2026-09-01 23:11:35] ERROR: Error adding department: Department with ID 1 already exists.
+[2026-09-01 23:11:35] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-01 23:11:35] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.

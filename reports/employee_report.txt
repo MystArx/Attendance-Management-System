@@ -1,0 +1,11 @@
+EMPLOYEE MASTER REPORT
+======================
+
+Employee ID: 101
+Name       : Rahul Sharma
+Email      : rahul.sharma@example.com
+Department : HR
+Salary     : $85,000.00
+Joined     : 2023-01-15
+Leave Bal  : Casual=9, Sick=10, Earned=15
+----------------------------------------

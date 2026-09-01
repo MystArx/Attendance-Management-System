@@ -1,0 +1,17 @@
+[2026-08-31 22:45:45] INFO: Department 1 created successfully
+[2026-08-31 22:45:45] INFO: Employee 101 created successfully
+[2026-08-31 22:45:45] INFO: Employee 101 attendance marked
+[2026-08-31 22:45:45] INFO: Leave request 501 submitted
+[2026-08-31 22:45:45] INFO: Leave request 501 approved
+[2026-08-31 22:45:45] INFO: Employee report generated
+[2026-08-31 22:46:41] INFO: Database tables verified/created successfully.
+[2026-09-01 22:53:54] INFO: Database tables verified/created successfully.
+[2026-09-01 22:59:36] INFO: Department 1 created successfully
+[2026-09-01 23:01:34] INFO: Department 3 updated successfully
+[2026-09-01 23:02:11] INFO: Department 4 deleted successfully
+[2026-09-01 23:11:35] INFO: Employee 101 created successfully
+[2026-09-01 23:11:35] INFO: Employee 101 attendance marked
+[2026-09-01 23:11:35] INFO: Leave request 501 submitted
+[2026-09-01 23:11:35] INFO: Leave request 501 approved
+[2026-09-01 23:11:35] INFO: Employee report generated
+[2026-09-01 23:12:38] INFO: Database tables verified/created successfully.

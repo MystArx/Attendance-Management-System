@@ -1,11 +1,10 @@
 from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm import relationship
 from database.database_connection import Base
 
-
 class Department(Base):
-
-    __tablename__ = "department"
-
-    department_id = Column(Integer, primary_key=True, autoincrement=True)
-    department_name = Column(String(100), nullable=False, unique=True)
+    __tablename__ = 'department_table'
+    department_id = Column(Integer, primary_key=True)
+    department_name = Column(String(50), nullable=False)
     location = Column(String(100), nullable=False)
+    employees = relationship('Employee', back_populates='department', cascade='all, delete-orphan')

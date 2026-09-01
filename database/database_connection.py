@@ -1,26 +1,23 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base
-DATABASE_URL = "sqlite:///./employee_system.db"
+from sqlalchemy.orm import declarative_base, sessionmaker
+from sqlalchemy.engine import URL
 
-if DATABASE_URL.startswith("sqlite"):
-    engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
-else:
-    engine = create_engine(DATABASE_URL)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+# MySQL Database connection configuration
+# Adjust username, password, host, port, and database as per your local MySQL setup
+database_url = URL.create(
+    drivername="mysql+pymysql",
+    username="root",
+    password="passs",  # Update with your MySQL password
+    database="employee_project_db",
+    host="localhost",
+    port=3306
+)
 
+# Create the database engine
+engine = create_engine(database_url, echo=False)
 
+# Session factory bound to the engine
+SessionLocal = sessionmaker(bind=engine)
+
+# Declarative Base for ORM Models
 Base = declarative_base()
-
-
-def get_db():
-    """ Dependency function to provide a database session for FastAPI endpoints. Ensures the session is automatically closed after the request is finished. """
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
-
-
-def create_tables():
-    """ Creates all database tables defined by SQLAlchemy models. """
-    Base.metadata.create_all(bind=engine)

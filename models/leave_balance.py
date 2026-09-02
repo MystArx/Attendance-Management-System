@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, ForeignKey
 from sqlalchemy.orm import relationship
-from database.database_connection import Base
+from db_connection import Base
 
 class LeaveBalance(Base):
     __tablename__ = 'leave_balance_table'

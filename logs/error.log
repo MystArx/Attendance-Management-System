@@ -7,3 +7,24 @@
 [2026-09-01 23:11:35] ERROR: Error adding department: Department with ID 1 already exists.
 [2026-09-01 23:11:35] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
 [2026-09-01 23:11:35] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:57:45] ERROR: Error adding department: Department with ID 1 already exists.
+[2026-09-02 09:57:45] ERROR: Error adding employee: Employee with ID 101 already exists.
+[2026-09-02 09:57:45] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:57:45] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:57:45] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:57:45] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:57:45] ERROR: Error submitting leave request: Leave Request with ID 501 already exists.
+[2026-09-02 09:59:04] ERROR: Error adding department: Department with ID 1 already exists.
+[2026-09-02 09:59:04] ERROR: Error adding employee: Employee with ID 101 already exists.
+[2026-09-02 09:59:04] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:59:04] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:59:04] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:59:04] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 09:59:04] ERROR: Error submitting leave request: Leave Request with ID 501 already exists.
+[2026-09-02 10:04:13] ERROR: Error adding department: Department with ID 1 already exists.
+[2026-09-02 10:04:13] ERROR: Error adding employee: Employee with ID 101 already exists.
+[2026-09-02 10:04:13] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 10:04:13] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 10:04:13] ERROR: DuplicateAttendanceException: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 10:04:13] ERROR: Error marking attendance: Duplicate attendance: Employee 101 already has attendance recorded for 2026-08-25.
+[2026-09-02 10:04:13] ERROR: Error submitting leave request: Leave Request with ID 501 already exists.

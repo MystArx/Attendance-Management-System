@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Date, ForeignKey
 from sqlalchemy.orm import relationship
-from database.database_connection import Base
+from db_connection import Base
 
 class Attendance(Base):
     __tablename__ = 'attendance_table'
